@@ -1,0 +1,2467 @@
+Post Test
+1.Which is not the feature of Web Container to Web application?
+
+a)MultiThreading Support
+b)Life Cycle Management
+c)JSP Support
+d)Dependency Injection
+e)None of the above
+Ans d
+
+2.The classes in __________ directory must be available to the application class loader. 
+a) /WEB-INF/classes/
+b) /WEB-INF/lib/classes/
+c) /root/classes
+d) /root/lib/classes
+e) None of the above
+
+Ans a
+
+3.What is the sequence of methods execution in filter?
+
+a)Init,doFilter,destroy
+b)doFilter,init,destroy
+c)destroy, dofilter,init
+d)destroy, dofilter
+e)None of the above
+Ans a
+
+
+
+4.Implementation of  the _________ interface are notified of changes to the list of active sessions in a web application.
+
+a)HttpSessionListener
+b)HttpSessionAttributeListener
+c)HttpRequestListener
+d)HttpContextListener
+e)None of the above
+
+Ans a
+
+5.Name the interface  that includes the getSession method that is used 	to get the HttpSession object.
+
+a)HttpServletRequest
+b)HttpServletResponse
+c)SessionConfig
+d)SessionContext
+e)None of the above
+
+Ans a
+
+6.Which intercepts the request before it gets to the requested resource?
+
+a)Servlet
+b)Filter
+c)ServletConfig
+d)Session
+e)Web Container
+
+Ans b
+
+
+
+
+7.The Life cycle of servlet? (choose all possible answers)
+
+a)doFilter
+b)init
+c)action
+d)service
+e)destroy
+f)All of  these
+g)b , d & e
+h)a,b  &d 
+
+Ans g
+
+8.The tasks –authentication ,blocking of requests, data compression, logging and auditing – are performed by?
+
+a)Servlet filter
+b)Servlet config
+c)Servlet context
+d)Servlet container
+e)None of the above
+
+Ans a
+
+9.Which Http Methods include the request in the body of response?
+
+a)Put
+b)Head
+c)Get
+d)Post
+e)Body
+
+Ans d
+
+
+10. Which method is used to initiate a new request to different servlets/Jsp?
+
+a)RequestDispatcher
+b)SendRedirect
+c)Forward
+d)Include
+e)None of the above
+
+11. Which method is used to destroy the session object?
+
+a)destroy
+b)invalidate
+c)System.exit()
+d)Finalize
+e)None of the above
+
+12. Which interface used to receive the life cycle event of web application?
+
+a)ServletConfig
+b)ServletContextListener
+c)ServletConfigListener
+d)ServletConfig
+e)ServletContextAttributeListener
+
+
+
+13. The method forward(request,response) will
+
+a)Return back to the same method from where the forward was invoked
+b)Not return back to the same method from where the forward was invoked and the web pages navigation continues
+c)Both A and B are correct
+d)None of the above
+
+14. Which method in JSP used to process the request in the JSP lifecycle?
+
+a)Init
+b)Service
+c)jspService
+d)jspInit
+e)_jspService
+
+15. In the MVC pattern,Which is responsible for managing the data of the application.
+
+a)View
+b)Controller
+c)Model
+d)Service
+e)None of the above
+
+16. Which tag used to include the contents of file into Jsp Translation time
+
+a)<jsp:include page=” ”>
+b)<%@include page=” ”>
+c)<%@include file=” “>
+d)<jsp:include file=” “>
+e)None of the above
+
+17. Which is not the implicit objects of JSP?
+a)page
+b)out
+c)application
+d)import
+e)None of the above
+
+18. What is the hidden comment in JSP?
+a)<%--   --%>
+b)<!-- - ->
+c)<%!    %>
+d)/*   */
+e)<%=  %>
+
+19. The browser are required to accept _______cookies per site?
+a)20
+b)30
+c)22
+d)24
+
+20. Can Jsp process HTML form data?
+a)True
+b)False
+c)
+21. What is translation unit?
+a)JSP page can include the contents of other HTML pages or other JSP files.
+b)When the jsp engine is presented with such as JSP page it is converted to one servlet class and this is called a translation unit.
+c)In a translation unit is that page directive affect whole unit, one variable declaration cannot occur  in the same unit more than once, the standard action jsp:usebean cannot declare the same bean twice in one unit.
+d)All the above.
+
+22. What JSP is basically used today?
+
+a.To make controller
+b.To make GUI
+c.In writing business logic
+d.Deprecated
+e.None
+
+23. JSP stands for
+
+a)JavaServerPage
+b)JavaServerPages
+c)JavaServicePage
+d)JavaStandardPages
+e)None
+
+24. Usage of EL tags?
+a)<%= var %>
+b)${var}
+c){var}
+d)%{var}
+e)None
+
+25. Which is used to greatly reduces the need to provide implementations to oft-repeated tasks, providing ready-made, reusable custom tags.
+
+a)page
+b)include
+c)taglib
+d)action
+e)None
+
+
+
+
+java
+Question block created by wizard
+All the Best
+Is Arraylist is faster than Vector ?
+¡   (1) A. False
+¤   (2) B. True
+
+Can ActionServlet be loaded using <Load-on-startup>?
+¤   (1) A. Yes
+¡   (2) B. No
+
+Once a lock is set, it will remain in force until the transaction is committed or rolled back
+¤   (1) A. True
+¡   (2) B. False
+
+What is the default inheritance strategy in Java Persistence API (JPA)?
+¤   (1) A. SINGLE_TABLE
+¡   (2) B. JOINED
+¡   (3) C. TABLE_PER_CLASS
+¡   (4) D. TABLE_PER_SUBCLASS
+
+Which of these lists contains at least one word that is not a Java keyword?
+¡   (1) A. Abstract, default, if, private, this
+¡   (2) B. do, implements, protected, boolean, throw
+¡   (3) C. case, extends, int, short, try
+¤   (4) D. import, break, double, exception, throws
+¡   (5) E. byte, else, instanceof, return, transient
+¡   (6) F. None of the above
+
+Which type of driver converts JDBC calls into the network protocol used by the database management system directly?
+¡   (1) A. Type 1 driver
+¡   (2) B. Type 2 driver
+¡   (3) C. Type 3 driver
+¤   (4) D. Type 4 driver
+
+The List interface provides support for ordered collections of objects.
+¡   (1) A. No
+¤   (2) B. Yes
+
+An interface can extend more than one interface?
+¤   (1) A. True
+¡   (2) B. False
+Suppose that NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(Locale.US). Which of the following statement is legal?
+¡   (1) A.  Number number = NumberFormat.parse("$5,000.56");
+¤   (2) B. Number number = currencyFormat.parse("$5,000.56");
+¡   (3) C. Number number = currencyFormat.parseCurrency("$5,000.56");
+¡   (4) D. Number number = currencyFormat.parse("5,000.56");
+
+What type of function or functions does the Calendar class provide?
+¡   (1) A. String formatting of date objects for different time zones
+¡   (2) B. Storage for appointments and meeting information
+¤   (3) C. Conversion of String-formatted date information to milliseconds
+¡   (4) D. Access to the system clock
+¡   (5) E. Date arithmetic, comparisons, and utility methods
+
+Which among the following Java-built-in class’ no method is synchronized 
+¡   (1) A. Vector
+¡   (2) B. StringBuffer
+¤   (3) C. StringBuilder
+¡   (4) D. Hashtable
+
+You have been contracted to create a web site for a free dating service. One feature is the ability for one client to send a message to another client, which is displayed in the latter client's private page. Your contract explicitly states that security is a high priority. Therefore, you need to prevent cross-site hacking in which one user inserts JavaScript code that is then rendered and invoked when another user views that content. Which JSTL code snippets will prevent cross-site hacking in the scenario above? 
+¡   (1) A. <c:out>${message}</c:out> 
+¡   (2) B. <c:out value='${message}' /> 
+¡   (3) C. <c:out value='${message}' escapeXml='true' />
+¡   (4) D. <c:out eliminateXml='true'>${message}</c:out> 
+¡   (5) E. <c:out value='${message}' eliminateXml='true' /> 
+¤   (6) F. Both B and C
+
+Which of the following are true?
+¡   (1) A. The MouseListener interface defines methods for handling mouse clicks.
+¡   (2) B. The MouseMotionListener interface defines methods for handling mouse clicks.
+¡   (3) C. The MouseClickListener interface defines methods for handling mouse clicks.
+¡   (4) D. The ActionListener interface defines methods for handling the clicking of a button.
+¤   (5) E. A and B
+¡   (6) F. A and C
+¡   (7) G. A and D
+
+The Collection interface provides support for the implementation of a mathematical bag - an unordered collection of objects that may contain duplicates.
+¡   (1) A. False
+¤   (2) B. True
+
+Name the class used to represent a GUI application window, which is optionally resizable and can have a title bar, an icon, and menus. Select the one correct answer
+¡   (1) A. Window
+¡   (2) B. Panel
+¡   (3) C. Dialog
+¤   (4) D. Frame
+
+Which three are true about the HttpServletRequestWrapper class?
+¡   (1) A. The HttpServletRequestWrapper is an example of the Decorator pattern.
+¡   (2) B. The HttpServletRequestWrapper can be used to extend the functionality of a servlet request.
+¡   (3) C. A subclass of HttpServletRequestWrapper CANNOT modify the behavior of the getReader method.
+¡   (4) D. An HttpServletRequestWrapper may be used only by a class implementing the javax.servlet.Filter interface.
+¡   (5) E. An HttpServletRequestWrapper CANNOT be used on the request passed to the RequestDispatcher.include method.
+¡   (6) F. An HttpServletRequestWrapper may modify the header of a request within an object implementing the javax.servlet.Filter interface.
+¤   (7) G. A, B, F
+¡   (8) H. B, C, F
+¡   (9) I. A, D, F
+
+Which of the following method name the InterruptedException in its throws clause?
+¡   (1) A. notify
+¡   (2) B. notifyAll
+¡   (3) C. run
+¡   (4) D. start
+¡   (5) E. yield
+¤   (6) F. wait
+
+Is the ternary operator written x : y ? z or x ? y : z ?
+¡   (1) A. It is written y ? x : z.
+¡   (2) B. It is written z? x : y
+¤   (3) C. It is written x ? y : z.
+¡   (4) D. None of these
+
+To commit the changes in a CachedRowSet, use ___________.
+¡   (1) A. commint()
+¤   (2) B. acceptChanges()
+¡   (3) C. acceptUpdates()
+¡   (4) D. refresh()
+
+What does the following line of code mean?double table[];
+¡   (1) A. table is a variable to refers to a real number
+¡   (2) B. table is a variable that refers to two numbers
+¡   (3) C. It is not legal Java code
+¤   (4) D. table is a variable that refers to an array
+
+Which of the following is a modifier that can be applied to a field declaration within an interface? 
+¤   (1) A. static
+¡   (2) B. synchronized
+¡   (3) C. transient
+¡   (4) D. volatile
+¡   (5) E. None of the above
+
+Is the JDBC-ODBC Bridge multi-threaded
+¤   (1) A. Yes
+¡   (2) B. No
+¡   (3) C. None of the above of the above
+
+The Locale class is used to tailor program output to the conventions of a particular geographic, political, or cultural region.
+¡   (1) A. False
+¤   (2) B. True
+
+Factory methods are generally 
+¤   (1) A. Static
+¡   (2) B. Abstract
+¡   (3) C. Non-static
+¡   (4) D. None
+
+Given the definition of MyServlet: 
+public class MyServlet extends HttpServlet { 
+public void service(HttpServletRequest request, HttpServletResponse response) 
+throws ServletException, IOException { 
+HttpSession session = request.getSession(); 
+session.setAttribute("myAttribute","myAttributeValue"); 
+session.invalidate(); 
+response.getWriter().println("value=" + 
+session.getAttribute("myAttribute")); 
+} 
+} 
+What is the result when a request is sent to MyServlet? 
+¤   (1) A. An IllegalStateException is thrown at runtime.
+¡   (2) B. An InvalidSessionException is thrown at runtime.
+¡   (3) C. The string "value=null" appears in the response stream. 
+¡   (4) D. The string "value=myAttributeValue" appears in the response stream. 
+
+Once an object is garbage collected, it ceases to exist. It can no longer become reachable again.
+¡   (1) A. False
+¤   (2) B. True
+
+In which directory are you likely to find the file index.html? (Assume the context is defined as /cars.)
+¤   (1) A. /cars
+¡   (2) B. /cars/WEB-INF
+¡   (3) C. /cars/WEB-INF/resources
+¡   (4) D. /cars/META-INF
+What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy?
+¡   (1) A. The Reader/Writer class hierarchy is byte-oriented, and the InputStream/OutputStream class hierarchy is character-oriented.
+¤   (2) B. The Reader/Writer class hierarchy is character-oriented, and the InputStream/OutputStream class hierarchy is byte-oriented.
+
+The ObjectInputStream class supports the reading of objects from input streams.
+¡   (1) A. False
+¤   (2) B. True
+
+A ResourceBundle is like a specialized form of a Hashtable that maps strings to values.
+¤   (1) A. True
+¡   (2) B. False
+
+How do you create a locale for the United States?
+¤   (1) A.  new Locale("en", "US");
+¡   (2) B. new Locale("US", "en");
+¡   (3) C. Locale.US;
+¡   (4) D. Locale.getLocale("en", "US")
+
+Which of the following modifiers can not be applied to a member class? 
+¡   (1) A. abstract
+¡   (2) B. final
+¡   (3) C. public
+¡   (4) D. protected
+¡   (5) E. private
+¡   (6) F. static
+¤   (7) G. None of these
+
+A timeout argument can be passed to which of the following method?
+¤   (1) A. wait
+¡   (2) B. notify
+¡   (3) C. notifyAll
+¡   (4) D. run
+¡   (5) E. yield
+¡   (6) F. start
+
+Can a Java application use multiple locales?
+¤   (1) A. Yes
+¡   (2) B. No
+
+paint( ) method - called when the applet is minimized or maximized
+¡   (1) A. False
+¤   (2) B. True
+
+Using which one of the below interfaces is the preferred way to connect to a data source
+¡   (1) A. ResultSet
+¤   (2) B. DataSource
+¡   (3) C. Both a & b
+¡   (4) D. None of the above of the above
+
+Ant is used as
+¤   (1) A. unit testing framework
+¡   (2) B. build tool
+¡   (3) C. continuous integration tool
+¡   (4) D. source control product
+
+A web application is located in a directory named sales. Where should its deployment descriptor be located?
+¡   (1) A. sales
+¡   (2) B. sales/deployment
+¡   (3) C. sales/WEB
+¤   (4) D. sales/WEB-INF
+¡   (5) E. WEB-INF/sales
+¡   (6) F. WEB-INF
+¡   (7) G. WEB/sales
+
+Given an HttpServletRequest request: 
+22. String id = request.getParameter("jsessionid"); 
+23. // insert code here 
+24. String name = (String) session.getAttribute("name"); 
+Which of the below can be placed at line 23 to retrieve an existing HttpSession object?
+¡   (1) A. HttpSession session = request.getSession(); 
+¡   (2) B. HttpSession session = request.getSession(id); 
+¡   (3) C. HttpSession session = request.getSession(true); 
+¡   (4) D. HttpSession session = request.getSession(false); 
+¡   (5) E. HttpSession session = request.getSession("jsessionid"); 
+¤   (6) F. A, C and D
+
+Which method of HttpServletResponse will allow an HTTP header to be set in the response?
+¤   (1) A. setHeader
+¡   (2) B. setHeaders
+¡   (3) C. setHeaderValue
+¡   (4) D. None of These
+
+Which is a valid way to set the content type of a JSP page?
+¡   (1) A. <%@ contentType “text/plain” %>
+¡   (2) B. <jsp:contentType “text/plain”>
+¤   (3) C. <%@ page contentType=”text/plain” %>
+¡   (4) D. <% session.setContentType(“text/plain”); %>
+¡   (5) E. <% request.setContentType(“text/plain”); %>
+
+Given that login.getName() returns a java.lang.String value and given the JSP code:
+Welcome <%= login.getName() %> Which is equivalent?
+¤   (1) A. Welocome <% out.print(login.getName();%>
+¡   (2) B. Welocome <% Writer.print(login.getName();%>
+¡   (3) C. Welocome <% response.out.print(login.getName();%>
+¡   (4) D. Welocome <% response.writer.print(login.getName();%>
+¡   (5) E. Welocome <% response.getoutputstream().Write(login.getName();%>
+
+Which of the following is a valid way of getting a bean’s property?
+¡   (1) A. <jsp:useBean action="get" id="address" property="city" />
+¡   (2) B. <jsp:getProperty id="address" property="city" />
+¤   (3) C. <jsp:getProperty name="address" property="city" />
+¡   (4) D. <jsp:getProperty bean="address" property="*" />
+
+Which of the following XML syntax format tags do not have an equivalent in JSP syntax format? 
+¡   (1) A. <jsp:directive.page/> 
+¡   (2) B. <jsp:directive.include/> 
+¡   (3) C. <jsp:text></jsp:text> 
+¡   (4) D. <jsp:root></jsp:root> 
+¡   (5) E. <jsp:param/>
+¤   (6) F. C & D
+
+Which of the following elements can you use to import a tag library in a JSP document?
+¤   (1) A. <jsp:root> 
+¡   (2) B. <jsp:taglib> 
+¡   (3) C. <jsp:directive.taglib> 
+¡   (4) D. <jsp:taglib.directive>
+¡   (5) E. We cannot use custom tag libraries in XML format
+
+Which JSTL code snippet can be used to import content from another web resource? 
+¤   (1) A. <c:import url="foo.jsp"/> 
+¡   (2) B. <c:import page="foo.jsp"/> 
+¡   (3) C. <c:include url="foo.jsp"/> 
+¡   (4) D. <c:include page="foo.jsp"/> 
+¡   (5) E. Importing cannot be done in JSTL. A standard action must be used instead. 
+
+Assuming the tag library in the exhibit is imported with the prefix forum, which custom tag invocation produces a translation error in a JSP page?  
+
+
+¡   (1) A. <forum:message from="My Name" subject="My Subject" /> 
+¡   (2) B. <forum:message subject="My Subject"> 
+        My message body. 
+        </forum:message>
+¡   (3) C. <forum:message from="My Name" subject="${param.subject}">
+        ${param.body}
+        </forum:message>
+
+¤   (4) D. <forum:message from="My Name" subject="My Subject">
+         <%= request.getParameter( "body" ) %>
+         </forum:message>
+¡   (5) E. <forum:message from="My Name" subject="<%= request.getParameter( "subject" ) %>">
+       My message body.
+    </forum:message>
+
+Which object does a SimpleTag tag handler use to access implicit variables?
+¡   (1) A. PageContext
+¡   (2) B. BodyContent
+¤   (3) C. JspContext
+¡   (4) D. SimpleTagSupport
+
+The name of the tag library descriptor element that declares that an attribute of a tag is mandatory?
+¤   (1) A. Required
+¡   (2) B. Mandatory
+¡   (3) C. MUST
+¡   (4) D. None of the above
+
+Given a web application in which the cookie userName is expected to contain the name of the user. 
+Which EL expression evaluates to that user name? 
+¡   (1) A. ${userName} 
+¤   (2) B. ${cookie.userName} 
+¡   (3) C. ${cookie.user.name} 
+¡   (4) D. ${cookies.userName[0]} 
+¡   (5) E. ${cookies.userName}[1] 
+¡   (6) F. ${cookies.get('userName')}
+
+which of the following variables is not available for use in EL expressions?
+¡   (1) A. param
+¡   (2) B. cookie
+¡   (3) C. header
+¡   (4) D. pageContext
+¤   (5) E. contextScope
+
+
+For EJB 3.0 entity beans, which of the following is true?
+
+¤   (1) A. @Entity annotation on a POJO class will generate the boilerplate code required for an entity bean
+¡   (2) B. You need to implement EJBObject and EJBLocalObject
+¡   (3) C. You need to code Home and Remote interfaces
+¡   (4) D. You need to define empty methods for lifecycle methods ejbRemove, ejbActivate, ejbPassivate, ejbLoad, ejbStore, setEntityContext
+
+Which bean tag is used to output bean property value? 
+¡   (1) A. <bean:message>
+¤   (2) B. <bean:write>
+¡   (3) C. <bean:out>
+¡   (4) D. None of the Above
+
+Which of the following is false about Struts 2?
+¤   (1) A.Struts 2 Checkbox tags are smart enough so that there is no need for special handling for false values
+¡   (2) B.Struts 2 Action class must extend ActionSupport class.
+¡   (3) C.Form attributes can be placed in any POJO class or place the attributes in the Action class itself.
+¡   (4) D. Struts 2 supports both JSP and Freemarker tags
+¡   (5) E. Java Annotations can be used to replace XML configuration in Struts 2
+¡   (6) F. All of the above
+
+How would you apply more than one interceptor together to a Struts 2 Action class?
+¡   (1) A. Using interceptor-bundle
+¤   (2) B. Using interceptor-stack
+¡   (3) C. Using interceptor-chain
+¡   (4) D.By creating a new interceptor that calls the intercept() method of each interceptor. Now, bind the new interceptor to the action class
+
+Which of the following is not true about struts.devMode=true settings in struts 
+	configuration file?
+
+
+¡   (1) A. "struts.i18n.reload " property is set to true automatically
+¡   (2) B."struts.configuration.xml.reload" property is set to true automatically.
+¡   (3) C. It raises various debug or ignorable problems to errors.
+¡   (4) D.The application performs slower compared to struts.devMode=false configuration
+¤   (5) E. None of the above
+
+reset() method of ActionForm returns?
+¡   (1) A. ActionErrors
+¡   (2) B. ActionError
+¡   (3) C. ActionMapping
+¤   (4) D. Void
+
+How to display errors in jsp page? 
+¡   (1) A. <bean:error /> 
+¡   (2) B. <html:error /> 
+¡   (3) C. <error:error /> 
+¤   (4) D. <html:errors />
+
+Which of the statement are ture?
+Struts 1 Action classes are instantiated for each request, whereas Struts 2 Action classes are singleton.
+Struts 2 Action classes are instantiated for each request, whereas Struts 1 Action classes are singleton.
+Struts 1 Action classes are thread-safe.
+Struts 2 Action classes are thread-safe.
+
+
+¡   (1) A. a,b
+¤   (2) B. b,d
+¡   (3) C. a,c
+
+You have written a Action class with multiple methods create(), update() and delete().  But, you are asked to configure 3 distinct actions in struts.xml. Which of the following is the best way to implement?
+¡   (1) A.Split the Action class code into 3 distinct action classes with one method in each
+¤   (2) B. Configure the action in struts.xml: 
+ <action name="create" class="TestAction" method="create"> 
+ <action name="update" class="TestAction" method="update"> 
+ <action name="delete" class="TestAction" method="delete">
+¡   (3) C. Add a flag in the request parameter and call the appropriate function based on the input flag
+¡   (4) D. Configure the action in struts.xml:  
+<action name="create" class="TestAction" method="create()">  
+<action name="update" class="TestAction" method="update()">  
+<action name="delete" class="TestAction" method="delete()">
+
+dbms
+
+ 
+
+2. Which of the following is the primary function of a DBMS?
+a) Data processing
+b) Data management
+c) Data security
+d) Data sharing
+Answer: b) Data management
+
+ 
+
+4. Which of the following is a characteristic of a DBMS?
+a) Provides data integrity
+b) Does not require backup systems
+c) Does not support multi-user access
+d) Does not store large volumes of data
+Answer: a) Provides data integrity
+
+5. Which of the following is a type of DBMS model?
+a) Hierarchical model
+b) Relational model
+c) Object-oriented model
+d) All of the above
+Answer: d) All of the above
+
+6. In a DBMS, the term "schema" refers to:
+a) A set of data tables
+b) A diagrammatic representation of data
+c) The overall structure of the database
+d) None of the above
+Answer: c) The overall structure of the database
+
+7. What does SQL stand for in DBMS?
+a) Structured Query Language
+b) Simple Query Language
+c) System Query Language
+d) Structured Query List
+Answer: a) Structured Query Language
+
+8. In the relational model, data is stored in:
+a) Files
+b) Tables
+c) Records
+d) Indexes
+Answer: b) Tables
+
+9. Which of the following is an example of a relational DBMS?
+a) MongoDB
+b) MySQL
+c) Hadoop
+d) Redis
+Answer: b) MySQL
+
+10. Which of the following is a key benefit of using a DBMS?
+a) Redundancy of data
+b) Better security and access control
+c) Data inconsistency
+d) High maintenance cost
+Answer: b) Better security and access control
+11. In which database model is data organized into a two-dimensional table with rows and columns?
+a) Flat File Model
+b) Hierarchical Model
+c) Relational Model
+d) XML Model
+
+Answer: c) Relational Model
+
+12. A Flat File database is best described as:
+a) A database with a multi-level structure for storing data
+b) A database where data is stored in tables with multiple relationships
+c) A simple database that stores data in a single table, without relationships
+d) A database that stores data in an XML format
+Answer: c) A simple database that stores data in a single table, without relationships
+
+13. The Hierarchical Model organizes data:
+a) In a flat structure without relationships
+b) In a tree-like structure with parent-child relationships
+c) In XML tags for data storage
+d) In tables with rows and columns
+
+
+Answer: b) In a tree-like structure with parent-child relationships
+
+14. In a Hierarchical Database Model, each record has:
+a) Multiple parents
+b) One parent and many children
+c) No relationships
+d) A single root and no branches
+Answer: b) One parent and many children
+
+15. What is the main advantage of using the XML Database Model?
+a) It stores data in a tabular format
+b) It allows easy sharing and transport of data across different systems
+c) It requires complex queries for data retrieval
+d) It supports only hierarchical data storage
+Answer: b) It allows easy sharing and transport of data across different systems
+
+16. In an XML database, the data is:
+a) Stored in tables with fixed schemas
+b) Organized using tags to define data elements
+c) Organized in rows and columns
+d) Stored in a tree-like structure with no tags
+Answer: b) Organized using tags to define data elements
+
+17. Which of the following is true about Flat File Databases?
+a) They support complex relationships between data entities
+b) They are generally inefficient for large datasets due to redundancy
+c) They store data in an XML format
+d) They use a tree structure for organizing data
+Answer: b) They are generally inefficient for large datasets due to redundancy
+
+18. Which of the following is a potential drawback of the Hierarchical Model?
+a) Flexibility in representing complex relationships
+b) High performance with large datasets
+c) Difficulty in handling many-to-many relationships
+d) It does not support data redundancy
+
+Answer: c) Difficulty in handling many-to-many relationships
+
+19. The external schema in a DBMS architecture represents:
+A) The physical storage of the data.
+B) The overall design and structure of the database.
+C) The user’s view of the data.
+D) The structure of the database in terms of tables and relationships.
+Answer: C) The user’s view of the data.
+
+20. In DBMS, the conceptual schema is concerned with:
+A) The physical arrangement of data on storage devices.
+B) The logical structure of data and relationships.
+C) The user interface and view of the data.
+D) Access paths and index structures for data retrieval.
+Answer: B) The logical structure of data and relationships.
+
+21. Data independence in DBMS refers to the ability to:
+A) Change the conceptual schema without affecting the external schema.
+B) Change the internal schema without affecting the conceptual schema.
+C) Change the external schema without affecting the conceptual schema.
+D) Change the external schema without affecting the internal schema.
+Answer: B) Change the internal schema without affecting the conceptual schema.
+
+22. Which of the following is true about database normalization?
+A) Normalization aims to reduce the number of relations in a database.
+B) The process of normalization helps to eliminate data redundancy and ensures data integrity.
+C) A fully normalized database has only one table.
+D) Normalization always leads to faster query performance.
+Answer:
+B) The process of normalization helps to eliminate data redundancy and ensures data integrity.
+
+ 23.Which of the following is a characteristic of a relation in 1st Normal Form (1NF)?
+A) No repeating groups of data
+B) All attributes must be dependent on the primary key
+C) All non-prime attributes must be non-transitively dependent on the primary key
+D) No partial dependency exists
+Answer: A) No repeating groups of data
+
+24. Which of the following is TRUE about a table in 2nd Normal Form (2NF)?
+A) The table is in 1NF, and all non-prime attributes are functionally dependent on the primary key
+B) The table is in 1NF, and there is no partial dependency on the primary key
+C) The table has no transitive dependencies
+D) All attributes are directly dependent on the primary key
+Answer: B) The table is in 1NF, and there is no partial dependency on the primary key
+
+25. A table is in 3rd Normal Form (3NF) if:
+A) It is in 2NF and has no transitive dependency
+B) It is in 1NF and has no partial dependency
+C) It is in 1NF and has no repeating groups
+D) It is in 2NF and all non-prime attributes are functionally dependent only on the primary key
+Answer: A) It is in 2NF and has no transitive dependency
+
+26. Which of the following describes a transitive dependency?
+A) A non-prime attribute depends on another non-prime attribute
+B) A non-prime attribute depends on the primary key
+C) A primary key depends on a non-prime attribute
+D) A non-prime attribute depends on a subset of the primary key
+Answer: A) A non-prime attribute depends on another non-prime attribute
+
+
+
+git
+1. What is the primary purpose of Git?
+A) To manage databases
+B) To version control code
+C) To create web pages
+D) To compile programs
+Answer: B) To version control code
+2. Which command is used to create a new Git repository?
+A) git start
+B) git new
+C) git init
+D) git create
+Answer: C) git init
+3. Which of the following commands shows the current status of the working directory and staging area?
+A) git status
+B) git log
+C) git diff
+D) git show
+Answer: A) git status
+4. What is the purpose of the git pull command?
+
+A) To create a new branch
+B) To merge changes from a remote repository
+C) To download from a remote to local repository
+D) To initialize a new repository
+
+Answer: C) To download from a remote to local repository
+5. How do you move a file  to the staging area?
+A) git push
+B) git add
+C) git commit
+D) git save
+Answer: B) git add
+6. Which command is used to commit changes to the local repository?
+A) git save
+B) git commit
+C) git stage
+D) git push
+Answer: B) git commit
+7. What is the function of the git push command?
+A) To download changes from the remote repository
+B) To upload your local commits to the remote repository
+C) To create a new branch
+D) To merge two branches
+Answer: B) To upload your local commits to the remote repository
+8. Which of the following commands will show the commit history of the repository?
+A) git show
+B) git log
+C) git status
+D) git history
+Answer: B) git log
+9. What is a branch in Git?
+A) A backup copy of the repository
+B) A pointer to a specific commit
+C) A folder in the repository
+D) A different version of the repository, used for development
+Answer: D) A different version of the repository, used for development
+ 
+ 
+10. What command do you use to download the latest changes from a remote repository into your local branch?
+A) git fetch
+B) git pull
+C) git sync
+D) git merge
+Answer: B) git pull
+
+
+ 
+12. Which option would you use to push to a specific branch?
+a) git push --set-branch branch_name
+b) git push origin branch_name
+c) git push -b branch_name
+d) git push --branch branch_name
+Answer: b) git push origin branch_name
+
+13. What is true about GitLab?
+a) offers numerous DevOps and continuous integration/continuous delivery (CI/CD) features that are built into the repository. 
+b) offers a more complete, all-in-one platform without requiring integrations.
+c) seeks to emphasize performance and teamwork.
+d) A request to update the GitHub version
+A
+nswer: a & b
+14. What is GitHub primarily used for?
+a) Cloud storage
+b) Web development
+c) Version control and collaboration
+d) Data analytics
+Answer: c) Version control and collaboration
+15. What does the git clone command do?
+a) Creates a new branch
+b) Downloads a repository from GitHub to your local machine
+c) Commits changes to the repository
+d) Merges two branches
+Answer: b) Downloads a repository from GitHub to your local machine
+
+16. What is a Git repository?
+a) A collection of files
+b) A place to store code and track changes
+c) A place to store binary files only
+d) A text file to store project metadata
+Answer: b) A place to store code and track changes
+17.What is the default name of the primary branch in a Git repository?
+a) main
+b) Gate
+c) primary
+d) default
+
+Answer: b) main
+
+18. What is a 'commit' in Git?
+a) A snapshot of the changes made to files in the repository
+b) A remote repository
+c) A new branch in the repository
+d) A way to synchronize a local repository with a remote
+Answer: a) A snapshot of the changes made to files in the repository
+19. What is the first step to install Git on a Windows system?
+a) Download Git from the official Git website
+b) Install Git through Windows Update
+c) Use the Windows Store to download Git
+d) Clone a Git repository on the local machine
+Answer: a) Download Git from the official Git website
+
+20. Which of the following is a correct command to check if Git is installed on your system?
+a) git --check
+b) git --version
+c) check git
+d) version git
+Answer: b) git –version
+
+21.What command is used to configure Git's global username after installation?
+a) git username --set
+b) git config --global user.name "Your Name"
+c) git config user.name "Your Name"
+d) git set global username "Your Name"
+
+Answer: b) git config --global user.name "Your Name"
+22. In Git, after installation, the first setup command is typically:
+a) git clone
+b) git init
+c) git config --global user.email
+d) git remote add origin
+Answer: c) git config --global user.email
+
+1. Which Git command is used to list all branches in your local repository?
+A) git branch -a
+B) git branch
+C) git list branches
+D) git show branches
+Answer: B) git branch
+
+2. How can you create a new branch in Git?
+A) git new branch
+B) git create branch <branch_name>
+C) git checkout -b <branch_name>
+D) git branch -c <branch_name>
+Answer: C) git checkout -b <branch_name>
+
+3. Which command switches to an existing branch in Git?
+A) git switch <branch_name>
+B) git checkout <branch_name>
+C) git change <branch_name>
+D) Both A and B
+Answer: D) Both A and B
+
+4. How do you delete a branch locally in Git?
+A) git remove branch <branch_name>
+B) git delete branch <branch_name>
+C) git branch -d <branch_name>
+D) git branch --remove <branch_name>
+Answer: C) git branch -d <branch_name>
+
+5. How can you rename a Git branch?
+A) git rename <old_name> <new_name>
+B) git branch -r <old_name> <new_name>
+C) git branch -m <new_name>
+D) git branch --rename <old_name> <new_name>
+Answer: C) git branch -m <new_name>
+
+6. Which command is used to check which branch you are currently on?
+A) git branch -l
+B) git show branch
+C) git status
+D) git current-branch
+Answer: C) git status
+
+7. Which command will display both remote and local branches?
+A) git branch
+B) git branch -r
+C) git branch -a
+D) git branch --all
+Answer: C) git branch -a
+
+ 
+9. What is the command to merge another branch into your current branch?
+A) git merge <branch_name>
+B) git combine <branch_name>
+C) git join <branch_name>
+D) git switch <branch_name> --merge
+Answer: A) git merge <branch_name>
+
+ 
+
+
+
+
+
+ 
+ 1. Which of the following is true about Java objects?
+A) Objects are created from classes in Java.
+B) Objects cannot hold multiple values.
+C) An object is a blueprint in Java.
+D) An object is the same as a class in Java.
+Answer: A) Objects are created from classes in Java.
+
+2. What is the default value of an instance variable of type int in a Java object?
+A) 0
+B) null
+C) Undefined
+D) 1
+Answer: A) 0
+
+3. Which of the following keywords is used to create an object in Java?
+A) this
+B) new
+C) object
+D) create
+Answer: B) new
+
+4. What will be the output of the following code snippet?
+java
+Copy
+class Person {
+    String name;
+    int age;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person p1 = new Person();
+        System.out.println(p1.name + " " + p1.age);
+    }
+}
+A) null 0
+B) empty string 0
+C) Compilation error
+D) NullPointerException
+Answer: A) null 0
+
+
+
+5.What will be the output of the following code?
+java
+Copy
+class Car {
+    String model;
+    
+    Car(String model) {
+        this.model = model;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car("Toyota");
+        System.out.println(myCar.model);
+    }
+}
+A) Compilation error
+B) Toyota
+C) null
+D) Runtime error
+Answer: B) Toyota
+
+
+6. What does the this keyword refer to in a method of a Java object?
+A) It refers to the class.
+B) It refers to the current object.
+C) It refers to the superclass.
+D) It is used to call a static method.
+Answer: B) It refers to the current object.
+
+7. Which of the following statements is used to destroy an object in Java?
+A) delete object;
+B) destroy object;
+C) object = null;
+D) object.delete();
+Answer: C) object = null;
+
+8. How do you call a method on an object in Java?
+A) object.method();
+B) object:method();
+C) method.object();
+D) method(object);
+Answer: A) object.method();
+
+9. What is the role of the new keyword when creating an object in Java?
+A) It initializes the object.
+B) It invokes the constructor of the class.
+C) It sets the class type for the object.
+D) It allocates memory for the object.
+Answer: D) It allocates memory for the object.
+
+10. Which of the following is NOT a fundamental concept of OOP in Java?
+a) Encapsulation
+b) Polymorphism
+c) Inheritance
+d) Compilation
+Answer: d) Compilation
+11. What is the default value of a local variable in Java?
+a) null
+b) 0
+c) Undefined
+d) It must be initialized before use
+Answer: d) It must be initialized before use
+12. What is the purpose of the super keyword in Java?
+a) To invoke a method in the current class
+b) To invoke the constructor of a superclass
+c) To create a subclass object
+d) To define a parent class
+Answer: b) To invoke the constructor of a superclass
+13. Which of the following access modifiers provides the least access control in Java?
+a) private
+b) default
+c) protected
+d) public
+Answer: d) public
+14. Which of the following statements is correct about method overloading in Java?
+a) Methods can be overloaded by changing the return type only
+b) Methods can be overloaded by changing the parameter type or number of parameters
+c) Methods can be overloaded by changing their name only
+d) Methods can be overloaded only if they are in the same class
+Answer: b) Methods can be overloaded by changing the parameter type or number of parameters
+15. What is the output of the following code?
+java
+Copy
+class Animal {
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();
+    }
+}
+a) Animal makes sound
+b) Dog barks
+c) Compilation error
+d) Runtime error
+Answer: b) Dog barks
+16. What is the result of the following code?
+java
+Copy
+class Parent {
+    public void show() {
+        System.out.println("Parent show()");
+    }
+}
+
+class Child extends Parent {
+    public void show() {
+        super.show();
+        System.out.println("Child show()");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.show();
+    }
+}
+a) Parent show()
+b) Child show()
+c) Parent show() Child show()
+d) Compilation error
+Answer: c) Parent show() Child show()
+17. Which of the following is true about constructors in Java?
+a) A constructor must always have a return type
+b) A constructor is automatically invoked when an object is created
+c) Constructors can be inherited
+d) A constructor can only be called manually
+Answer: b) A constructor is automatically invoked when an object is created
+18. Which of the following keywords is used to prevent a class from being inherited in Java?
+a) private
+b) static
+c) final
+d) abstract
+Answer: c) final
+19. In Java, an abstract class can have:
+a) Only abstract methods
+b) Only concrete methods
+c) Both abstract and concrete methods
+d) No methods at all
+Answer: c) Both abstract and concrete methods
+20. Which of the following is the correct way to declare a method that does not return any value in Java?
+a) void method()
+b) return type method()
+c) method()
+d) void return type method()
+Answer: a) void method()
+21. What does the term "polymorphism" refer to in Java?
+a) The ability to create multiple objects from a single class
+b) The ability of a variable to take on different types
+c) The ability of a subclass to inherit methods from its superclass
+d) The ability of one method to have multiple forms or behaviors
+Answer: d) The ability of one method to have multiple forms or behaviors
+
+22. Which of the following is a primitive data type in Java?
+a) String
+b) Integer
+c) int
+d) Double
+Answer: c) int
+
+23. Which of the following is true about object references in Java?
+a) Object references are stored in the stack memory.
+b) Object references point to memory locations where primitive values are stored.
+c) An object reference can be null, meaning it doesn't point to any object.
+d) Object references cannot be reassigned once they are initialized.
+Answer: c) An object reference can be null, meaning it doesn't point to any object.
+
+24. What will happen if you try to invoke a method on a null reference in Java?
+a) The method will be executed normally.
+b) A NullPointerException will be thrown.
+c) The program will crash without any error.
+d) The method will execute and return null.
+Answer: b) A NullPointerException will be thrown.
+
+25. Which of the following is true about the String class in Java?
+a) String is mutable.
+b) String objects are immutable and once created, their value cannot be changed.
+c) String objects can only be created using the new keyword.
+d) String objects are not thread-safe.
+Answer: b) String objects are immutable and once created, their value cannot be changed.
+
+26. Which of the following statements about StringBuffer is true?
+a) StringBuffer is immutable, just like String.
+b) StringBuffer provides methods like append(), insert(), and delete() for modifying the string.
+c) StringBuffer cannot be used in multi-threaded applications.
+d) StringBuffer is slower than String for string manipulation.
+Answer: b) StringBuffer provides methods like append(), insert(), and delete() for modifying the string.
+
+27. What is the default value of a reference variable in Java?
+a) 0
+b) null
+c) "" (empty string)
+d) Undefined
+Answer: b) null
+
+28. What does the StringBuilder class do in Java?
+a) It is similar to StringBuffer but provides a more thread-safe alternative.
+b) It creates immutable strings.
+c) It is used to create strings that can be modified (mutable).
+d) It is slower than StringBuffer for modifying strings.
+Answer: c) It is used to create strings that can be modified (mutable).
+
+29. What happens if you compare two String objects using == in Java?
+a) It checks if both String objects contain the same sequence of characters.
+b) It checks if both String objects are pointing to the same memory location.
+c) It checks if both String objects are the same length.
+d) It compares the reference values of the String objects for equality.
+Answer: b) It checks if both String objects are pointing to the same memory location.
+
+30. Which of the following methods can be used to create a new String object in Java?
+a) new String()
+b) "text"
+c) Both a) and b)
+d) String.create()
+Answer: c) Both a) and b)
+
+31. Which of the following is true regarding the String class and StringBuffer in Java?
+a) String is faster than StringBuffer for string manipulation.
+b) StringBuffer is thread-safe, while String is not.
+c) StringBuffer is used when frequent modifications to strings are required.
+d) Both String and StringBuffer are immutable.
+Answer: c) StringBuffer is used when frequent modifications to strings are required.
+
+ 32 Which of the following is true about constructors in Java?
+A) Constructors can have any return type.
+B) Constructors can be overloaded but cannot be overridden.
+C) A constructor must have the same name as the class and must return a value.
+D) A constructor is not required to initialize the instance variables.
+Answer: B) Constructors can be overloaded but cannot be overridden.
+33.  What will happen if you do not define any constructor in a Java class?
+A) The compiler will throw a runtime exception.
+B) A default constructor will be provided by the compiler.
+C) The class cannot be instantiated.
+D) The class will not compile.
+Answer: B) A default constructor will be provided by the compiler.
+34  Which of the following statements about the constructor in Java is false?
+A) A constructor can be invoked explicitly.
+B) A constructor is used to initialize an object.
+C) A constructor must not have a return type.
+D) A constructor can be called directly by its name.
+Answer: D) A constructor can be called directly by its name.
+
+35.  Which of the following statements is true about inheritance in Java?
+A) A class can inherit from multiple classes.
+B) Inheritance is achieved using the extends keyword.
+C) The super keyword refers to the subclass.
+D) Private members of the parent class can be accessed directly by the subclass.
+Answer: B) Inheritance is achieved using the extends keyword.
+36. What is the purpose of the super keyword in Java?
+A) To call a method from the parent class.
+B) To refer to the current object.
+C) To call the default constructor of the parent class.
+D) To create a superclass object.
+Answer: A) To call a method from the parent class.
+37.  Which of the following is not true about method overriding in Java?
+A) The method signature must be the same as the parent class method.
+B) The method can have a different return type than the parent class method.
+C) The method can have a more specific exception than the parent class method.
+D) The method is invoked at runtime based on the object type.
+Answer: B) The method can have a different return type than the parent class method.
+
+38.  What is the output of the following code snippet?
+java
+Copy
+int[] arr = {1, 2, 3, 4};
+System.out.println(arr[2]);
+A) 1
+B) 2
+C) 3
+D) 4
+Answer: C) 3
+39.  Which of the following statements is true about arrays in Java?
+A) Arrays in Java can grow dynamically.
+B) The size of an array is fixed once it is created.
+C) Arrays can only store primitive data types.
+D) An array in Java can be initialized without specifying the length.
+Answer: B) The size of an array is fixed once it is created.
+40.  Which of the following is the correct way to declare an array of integers in Java?
+A) int arr[] = new int[5];
+B) int arr[5] = new int[];
+C) int[] arr = new int();
+D) int[] arr = new int[5];
+Answer: D) int[] arr = new int[5];
+41.  What will happen if you attempt to access an index out of bounds in an array?
+A) The program will output null.
+B) The program will throw an ArrayIndexOutOfBoundsException.
+C) The program will display a default value like 0 or null.
+D) The program will crash silently.
+Answer: B) The program will throw an ArrayIndexOutOfBoundsException.
+
+42. What is the default access modifier in Java if no access modifier is specified?
+a) private
+b) protected
+c) public
+d) package-private (default)
+Answer: d) package-private (default)
+
+43. Which access modifier allows the access of a class or its members from any class in any package?
+a) private
+b) protected
+c) public
+d) default
+Answer: c) public
+
+44. What is the scope of a class member declared as protected?
+a) Accessible only within the same class
+b) Accessible only within the same package
+c) Accessible within the same package and in subclasses
+d) Accessible only from subclasses
+Answer: c) Accessible within the same package and in subclasses
+
+45. Which access modifier is most restrictive?
+a) private
+b) protected
+c) public
+d) default
+Answer: a) private
+
+46. Which of the following statements is true about default access modifiers in Java?
+a) Default members are accessible only within the same class
+b) Default members are accessible within the same package
+c) Default members are accessible from any package
+d) Default members are accessible only from subclasses
+Answer: b) Default members are accessible within the same package
+
+47. Which access modifier allows access to the class member from any class in the same package but not from outside the package?
+a) protected
+b) private
+c) public
+d) default
+Answer: d) default
+
+48. Which of the following keywords are used to declare a Java package?
+a) package
+b) import
+c) include
+d) namespace
+Answer: a) package
+
+49. If a class is defined in package com.example, how can it be accessed in another class in a different package?
+a) import com.example.ClassName;
+b) import ClassName;
+c) import package.ClassName;
+d) include com.example.ClassName;
+Answer: a) import com.example.ClassName;
+
+50. If a class has private access, where can it be accessed?
+a) Only within the same class
+b) From any class in the same package
+c) From any class in any package
+d) From its subclasses only
+Answer: a) Only within the same class
+
+51. What happens if no access modifier is used for a class in Java?
+a) The class will have default private access
+b) The class will be public by default
+c) The class will be package-private (default)
+d) The class will not compile
+Answer: c) The class will be package-private (default)
+
+52. What is the purpose of the import keyword in Java?
+a) To define a class in a specific package
+b) To allow access to classes or members from other packages
+c) To create new packages
+d) To make a class private to its package
+Answer: b) To allow access to classes or members from other packages
+
+53. Which of the following allows a method to be accessed from any other class in any package?
+a) private
+b) protected
+c) public
+d) default
+Answer: c) public
+
+54. Which access modifier allows access to a member from the same class, the same package, and subclasses?
+a) private
+b) protected
+c) public
+d) default
+Answer: b) protected
+
+55. Which of the following statements is true about the package-private (default) access level?
+a) It allows access only to classes in the same package
+b) It allows access only to subclasses
+c) It allows access from anywhere in the project
+d) It allows access only within the class
+Answer: a) It allows access only to classes in the same package
+
+56. How do you declare a class that can be accessed from any class in the same package and from subclasses in any package?
+a) public class ClassName
+b) private class ClassName
+c) protected class ClassName
+d) default class ClassName
+Answer: a) public class ClassName
+
+
+57. What is polymorphism in Java?
+a) The ability to process objects differently based on their data type or class.
+b) The ability to define a method in multiple classes.
+c) The ability to overload constructors.
+d) The ability to inherit methods from parent classes.
+Answer: a) The ability to process objects differently based on their data type or class.
+
+58. Which of the following is an example of compile-time polymorphism in Java?
+a) Method overriding.
+b) Method overloading.
+c) Inheritance.
+d) Abstract classes.
+Answer: b) Method overloading.
+
+59. What is method overriding in Java?
+a) Defining multiple methods with the same name but different parameters in the same class.
+b) Defining a method in a child class with the same signature as a method in the parent class.
+c) A process to call a method from a different class.
+d) A process of providing multiple methods in the parent class.
+Answer: b) Defining a method in a child class with the same signature as a method in the parent class.
+
+60. Which of the following is true about polymorphism in Java?
+a) A subclass can access private methods of its superclass using polymorphism.
+b) Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+c) Polymorphism can only be achieved through method overloading.
+d) It requires all methods to be abstract.
+Answer: b) Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+
+61. Which of the following statements is correct for method overriding in Java?
+a) The method signature must be the same in both parent and child class.
+b) The return type can be different in the child and parent class.
+c) The method in the child class can be private.
+d) The overridden method in the child class should throw a more restrictive exception.
+Answer: a) The method signature must be the same in both parent and child class.
+
+62. In which of the following scenarios is runtime polymorphism achieved in Java?
+a) Method overloading.
+b) Constructor overloading.
+c) Method overriding.
+d) Variable overriding.
+Answer: c) Method overriding.
+
+63. Which of the following is an example of using polymorphism in Java?
+a) A single method performs different tasks based on the arguments passed.
+b) A single method in a class can have multiple return types.
+c) A subclass provides a new implementation for an inherited method.
+d) A class implements multiple interfaces.
+Answer: a) A single method performs different tasks based on the arguments passed.
+
+64. What happens when a method is overridden in Java?
+a) The method from the parent class is hidden.
+b) The child class method is called instead of the parent class method.
+c) The parent class method is invoked by default.
+d) The compiler gives an error when a method is overridden.
+Answer: b) The child class method is called instead of the parent class method.
+
+65. What is true about dynamic method dispatch in Java?
+a) It is related to compile-time polymorphism.
+b) It allows calling the overridden method of a subclass using a reference of the superclass.
+c) It only works with abstract methods.
+d) It makes method calls faster in Java.
+Answer: b) It allows calling the overridden method of a subclass using a reference of the superclass.
+
+66. What is the output of the following code snippet?
+java
+Copy
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Animal myAnimal = new Dog();
+        myAnimal.sound();
+    }
+}
+a) Animal makes a sound
+b) Dog barks
+c) Compilation error
+d) Runtime error
+Answer: b) Dog barks
+
+67. What is the main purpose of abstraction in Java?
+A) To hide the implementation details and show only functionality
+B) To make code more complex
+C) To enable multiple inheritance
+D) To define the implementation of methods
+Answer: A) To hide the implementation details and show only functionality
+
+68. Which of the following is true about an abstract class in Java?
+A) An abstract class can only have abstract methods
+B) An abstract class can have both abstract and non-abstract methods
+C) An abstract class cannot have constructors
+D) An abstract class cannot have fields
+Answer: B) An abstract class can have both abstract and non-abstract methods
+
+69. Which of the following keywords is used to declare an abstract method in Java?
+A) abstract
+B) interface
+C) super
+D) final
+Answer: A) abstract
+
+70. Can a concrete (non-abstract) class in Java implement an abstract class?
+A) Yes, but only if it overrides all abstract methods
+B) No, concrete classes cannot implement abstract classes
+C) Yes, concrete classes must call the constructor of the abstract class
+D) Yes, but no abstract methods are allowed in the concrete class
+Answer: A) Yes, but only if it overrides all abstract methods
+
+71. What happens if a class contains one or more abstract methods and is not declared as abstract?
+A) The program will compile successfully
+B) The class must implement all abstract methods before compilation
+C) The program will throw a runtime exception
+D) The class will automatically be abstract
+Answer: B) The class must implement all abstract methods before compilation
+
+72. Which of the following can be abstract in Java?
+A) A class
+B) A method
+C) Both a class and a method
+D) A constructor
+Answer: C) Both a class and a method
+
+73. Can an abstract class have a constructor in Java?
+A) No, abstract classes cannot have constructors
+B) Yes, abstract classes can have constructors which can be invoked by subclasses
+C) Yes, abstract classes can have constructors, but they must be private
+D) No, abstract classes cannot have methods, so no constructors are needed
+Answer: B) Yes, abstract classes can have constructors which can be invoked by subclasses
+
+74. Which of the following statements is true about an interface in Java?
+A) An interface can have method implementations
+B) An interface can be instantiated
+C) An interface can only contain abstract methods
+D) An interface cannot extend another interface
+Answer: A) An interface can have method implementations (since Java 8, interfaces can have default and static methods)
+
+75. What is the difference between abstract classes and interfaces in Java?
+A) An abstract class can implement an interface but an interface cannot implement a class
+B) An interface can have both concrete and abstract methods, while an abstract class can only have abstract methods
+C) An abstract class can have constructors, but an interface cannot
+D) There is no difference; both are used for the same purpose
+Answer: C) An abstract class can have constructors, but an interface cannot
+
+76. Can a class implement multiple interfaces in Java?
+A) No, a class can only implement one interface
+B) Yes, a class can implement multiple interfaces
+C) Yes, but only if the interfaces do not have conflicting method names
+D) No, a class can only extend one class but implement multiple interfaces
+Answer: B) Yes, a class can implement multiple interfaces
+
+77. Which of the following is the superclass of all exceptions in Java?
+a) Error
+b) Throwable
+c) Exception
+d) RuntimeException
+Answer:b) Throwable
+78. What is the purpose of the try block in exception handling?
+a) To handle the exception
+b) To declare exceptions
+c) To catch exceptions
+d) To define code that may throw an exception
+Answer:d) To define code that may throw an exception
+79. Which of the following keywords is used to handle exceptions in Java?
+a) catch
+b) handle
+c) throws
+d) throw
+Answer:a) catch
+80. What will be the output of the following code?
+java
+Copy
+try {
+    int data = 100 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("ArithmeticException occurred");
+} catch (Exception e) {
+    System.out.println("Exception occurred");
+}
+a) ArithmeticException occurred
+b) Exception occurred
+c) Compile-time error
+d) Runtime exception
+Answer:a) ArithmeticException occurred
+81. Which type of exceptions are checked at compile time in Java?
+a) Unchecked exceptions
+b) Runtime exceptions
+c) Checked exceptions
+d) None of the above
+Answer:c) Checked exceptions
+82. In which scenario will the finally block NOT be executed?
+a) After the try block, whether an exception occurs or not
+b) After the catch block, when an exception is handled
+c) If there is a return statement in the try block
+d) If the JVM exits due to a fatal error
+Answer: d) If the JVM exits due to a fatal error
+83. Which of the following methods is used to print the exception message in Java?
+a) getMessage()
+b) printStackTrace()
+c) toString()
+d) showMessage()
+Answer: a) getMessage()
+84. What will happen if a catch block does not match the thrown exception type?
+a) The program will terminate
+b) The catch block will not be executed, and the exception will be passed to the next handler
+c) A compile-time error will occur
+d) The exception will be caught by the default exception handler
+Answer: b) The catch block will not be executed, and the exception will be passed to the next handler
+85. What will be the output of the following code?
+java
+Copy
+try {
+    throw new NullPointerException();
+} catch (Exception e) {
+    System.out.println("Exception caught");
+} finally {
+    System.out.println("Finally block executed");
+}
+a) Exception caught
+b) Finally block executed
+c) Exception caught Finally block executed
+d) Compile-time error
+Answer: c) Exception caught Finally block executed
+86. What is the purpose of the throw keyword in Java?
+a) To declare an exception
+b) To create a new exception
+c) To invoke the catch block
+d) To throw an exception explicitly
+Answer: d) To throw an exception explicitly
+
+87. What is the main benefit of multithreading in a program?
+a) It improves the performance of the program by reducing memory usage.
+b) It allows multiple parts of a program to run concurrently, improving execution efficiency.
+c) It ensures that the program runs without errors.
+d) It automatically handles resource allocation between threads.
+Answer: b) It allows multiple parts of a program to run concurrently, improving execution efficiency.
+88. In Java, which method is used to start a thread?
+a) run()
+b) start()
+c) execute()
+d) initialize()
+Answer: b) start()
+89. What happens if the run() method is called directly instead of using start() in a thread?
+a) The thread will execute, but not concurrently.
+b) The thread will be created, but not start.
+c) The program will throw an exception.
+d) The thread will execute and terminate immediately.
+Answer: a) The thread will execute, but not concurrently.
+90. Which of the following is true about a thread's lifecycle?
+a) A thread starts as a "NEW" thread and can never return to the "NEW" state after execution.
+b) A thread goes through multiple states including "RUNNING", "BLOCKED", and "WAITING".
+c) A thread can only be in one state at a time: "RUNNING".
+d) A thread enters the "WAITING" state only when an exception occurs.
+Answer: b) A thread goes through multiple states including "RUNNING", "BLOCKED", and "WAITING".
+91. Which keyword is used in Java to prevent multiple threads from accessing a critical section of code simultaneously?
+a) synchronized
+b) mutex
+c) lock
+d) volatile
+Answer: a) synchronized
+92. What is the main difference between the wait() and sleep() methods in Java?
+a) wait() pauses the current thread for a specific amount of time, while sleep() releases the lock of the object.
+b) wait() releases the lock and pauses the thread until notified, while sleep() pauses the thread without releasing any locks.
+c) wait() is used only in static methods, while sleep() is used in instance methods.
+d) wait() can only be called in a synchronized block, while sleep() can be called anywhere.
+Answer: b) wait() releases the lock and pauses the thread until notified, while sleep() pauses the thread without releasing any locks.
+93. Which of the following classes in Java provides built-in support for multithreading?
+a) Thread
+b) Runnable
+c) Executor
+d) All of the above
+Answer: d) All of the above
+
+94. In which scenario is the join() method used in multithreading?
+a) To terminate a thread immediately.
+b) To check the status of a thread.
+c) To ensure that one thread waits for another thread to complete before continuing.
+d) To create a new thread.
+Answer: c) To ensure that one thread waits for another thread to complete before continuing.
+95. What does the volatile keyword indicate in a multithreaded Java program?
+a) The variable's value will never be changed.
+b) The variable's value may be changed by different threads and should always be read from main memory.
+c) The variable is shared between multiple threads and will be synchronized automatically.
+d) The variable can be accessed by multiple threads without synchronization.
+Answer: b) The variable's value may be changed by different threads and should always be read from main memory.
+
+96. Which of the following interfaces is part of the Executor framework in Java?
+A) Runnable
+B) Executor
+C) ThreadPoolExecutor
+D) Future
+Answer: B) Executor
+
+97. What is the purpose of the ExecutorService interface in Java?
+A) To define methods for creating threads manually
+B) To provide a higher-level replacement for the Thread class
+C) To manage a pool of worker threads and handle asynchronous tasks
+D) To handle low-level thread synchronization
+Answer: C) To manage a pool of worker threads and handle asynchronous tasks
+98. What is the role of the Future object in the Executor framework?
+A) It represents the result of an asynchronous computation
+B) It defines the contract for tasks to execute
+C) It manages the thread pool resources
+D) It is used to stop tasks running on the executor
+Answer: A) It represents the result of an asynchronous computation
+99.Which of the following classes is used to create a single-threaded executor that guarantees the order of task execution?
+A) ExecutorService
+B) ScheduledThreadPoolExecutor
+C) SingleThreadExecutor
+D) Executors
+Answer: C) SingleThreadExecutor
+
+100.Which of the following interfaces does the Java Collection Framework provide for handling a group of objects?
+A) List
+B) Set
+C) Map
+D) All of the above
+Answer: D) All of the above
+
+101. Which of the following is true about the List interface?
+A) It allows duplicates and maintains insertion order.
+B) It does not allow duplicates.
+C) It does not maintain insertion order.
+D) It only allows unique elements.
+Answer: A) It allows duplicates and maintains insertion order.
+
+102. Which class in Java Collection Framework implements the Set interface?
+A) HashSet
+B) ArrayList
+C) TreeSet
+D) Both A and C
+Answer: D) Both A and C
+
+103. Which of the following is the correct method to add an element to a List?
+A) add()
+B) insert()
+C) append()
+D) put()
+Answer: A) add()
+
+104. What is the main difference between ArrayList and LinkedList?
+A) ArrayList uses an array to store elements, while LinkedList uses a doubly linked list.
+B) ArrayList allows faster insertions and deletions, while LinkedList is slower.
+C) ArrayList is synchronized, while LinkedList is not.
+D) ArrayList stores only unique elements, while LinkedList allows duplicates.
+Answer: A) ArrayList uses an array to store elements, while LinkedList uses a doubly linked list.
+
+105. Which of the following statements about the Map interface is correct?
+A) It allows duplicates but not null keys.
+B) It is a collection of key-value pairs.
+C) It implements both Set and List interfaces.
+D) It stores elements in a specific order based on insertion.
+Answer: B) It is a collection of key-value pairs.
+106. Which of the following is true about the HashSet class?
+A) It allows only unique elements.
+B) It maintains the order of insertion.
+C) It allows duplicates and maintains insertion order.
+D) It allows null elements and stores them at the end.
+Answer: A) It allows only unique elements.
+
+107. Which collection class allows the storage of key-value pairs?
+A) HashMap
+B) TreeMap
+C) LinkedHashMap
+D) All of the above
+Answer: D) All of the above
+ 
+108. Which of the following statements about generics in Java collections is true?
+A) Generics allow the use of different types for collections, but the types are resolved at runtime.
+B) Generics enable type safety by allowing collections to only hold objects of a specific type at compile-time.
+C) Generics can only be used with ArrayList and HashMap classes in Java.
+D) In generics, you are required to specify the type for every collection, even when it can hold any type of object.
+
+Answer: B) Generics enable type safety by allowing collections to only hold objects of a specific type at compile-time.
+
+109. Which class is used to write data to a file in Java?
+a) FileWriter
+b) FileReader
+c) FileOutputStream
+d) PrintWriter
+Answer: c) FileOutputStream
+ 
+110. Which of the following is true regarding the BufferedReader class in Java?
+a) It is used to read byte data from a file.
+b) It is used to read character data from a file.
+c) It reads one byte at a time.
+d) It is used for both input and output operations.
+Answer: b) It is used to read character data from a file.
+ 
+111.Which method is used to close an InputStream or OutputStream in Java?
+a) close()
+b) end()
+c) shutdown()
+d) stop()
+Answer: a) close()
+112.In Java, what happens when you try to read beyond the end of a file using an InputStream?
+a) It throws an EOFException.
+b) It returns -1.
+c) It throws an IOException.
+d) It throws a FileNotFoundException.
+Answer: b) It returns -1.
+113. Which interface is used to represent a database connection in JDBC?
+A) Statement
+B) Connection
+C) ResultSet
+D) DriverManager
+Answer: B) Connection
+
+114. Which method of the Statement interface is used to execute a SQL query in JDBC?
+A) executeQuery()
+B) execute()
+C) executeUpdate()
+D) All of the above
+Answer: D) All of the above
+
+115. Which of the following methods is used to establish a connection to a database using JDBC?
+A) DriverManager.getConnection()
+B) DriverManager.getStatement()
+C) Connection.createStatement()
+D) Connection.setAutoCommit()
+Answer: A) DriverManager.getConnection()
+
+116. What does the ResultSet object in JDBC represent?
+A) SQL query
+B) Connection to the database
+C) The result of a query
+D) The error message
+Answer: C) The result of a query
+
+117. Which of the following is the correct method to close a JDBC connection?
+A) closeConnection()
+B) close()
+C) disconnect()
+D) terminate()
+Answer: B) close()
+
+118. Which class is responsible for managing the list of database drivers in JDBC?
+A) DriverManager
+B) Driver
+C) Connection
+D) Statement
+Answer: A) DriverManager
+
+119. What is the purpose of the executeUpdate() method in JDBC?
+A) To execute a SELECT query
+B) To execute a data manipulation query like INSERT, UPDATE, DELETE
+C) To fetch data from a database
+D) To execute a DDL statement
+Answer: B) To execute a data manipulation query like INSERT, UPDATE, DELETE
+
+120. Which of the following types of drivers are supported by JDBC?
+A) Type 1, Type 2, Type 3, Type 4
+B) Type A, Type B, Type C
+C) Type X, Type Y, Type Z
+D) Type 1, Type 2
+Answer: A) Type 1, Type 2, Type 3, Type 4
+121. Which annotation is used in JUnit 4 to denote that a method should be run before each test method?
+A) @BeforeClass
+B) @Before
+C) @Test
+D) @After
+Answer: B) @Before
+
+122. Which annotation is used to mark a method that should be run after all the tests have finished in JUnit 4?
+A) @AfterClass
+B) @After
+C) @Test
+D) @BeforeClass
+Answer: A) @AfterClass
+
+123. What is the purpose of the @Test annotation in JUnit 4?
+A) To specify a method that runs before each test
+B) To define a test method
+C) To run after each test
+D) To set up test environment
+Answer: B) To define a test method
+
+124. Which of the following is used to assert that a value is equal to an expected value in JUnit 4?
+A) assertTrue()
+B) assertEquals()
+C) assertNotNull()
+D) assertFalse()
+Answer: B) assertEquals()
+
+125. In JUnit 4, which annotation should be used to indicate that a test method should be ignored?
+A) @Test(ignore=true)
+B) @Ignore
+C) @Test(ignored=true)
+D) @Skip
+Answer: B) @Ignore
+126.Which method in JUnit 4 would you use to assert that an object is not null?
+A) assertNotNull()
+B) assertNull()
+C) assertNotEmpty()
+D) assertEquals()
+Answer: A) assertNotNull()
+
+127. Which of the following would be used to indicate a failure in a JUnit 4 test?
+A) assertTrue()
+B) assertEquals()
+C) assertFalse()
+D) assertNotNull()
+Answer: B) assertEquals() (when the values don't match)
+
+128. In JUnit 4, which of the following is true regarding @Test(expected=Exception.class)?
+A) It is used to indicate that the test should fail if no exception is thrown.
+B) It is used to indicate that an exception is expected during the test.
+C) It indicates that the test is skipped.
+D) It is used to indicate a setup failure.
+Answer: B) It is used to indicate that an exception is expected during the test.
+129. What is Maven?
+A) A version control system
+B) A build automation tool
+C) A Java library
+D) A text editor
+Answer: B) A build automation tool
+
+130. Which file is the main configuration file in a Maven project?
+A) settings.xml
+B) pom.xml
+C) maven.xml
+D) build.xml
+Answer: B) pom.xml
+
+131. Which Maven lifecycle phase is responsible for compiling the source code?
+A) validate
+B) compile
+C) test
+D) package
+Answer: B) compile
+
+132. What is the default Maven repository location on the local machine?
+A) /maven/repository
+B) /user/.m2/repository
+C) /lib/maven/repository
+D) /maven/lib
+Answer: B) /user/.m2/repository
+133. In Maven, what is the purpose of the dependency element in the pom.xml file?
+A) To define the plugins required for the build
+B) To specify the external libraries that the project depends on
+C) To specify the project name
+D) To specify the version of Maven being used
+Answer: B) To specify the external libraries that the project depends on
+134.Which of the following is the correct order of Maven build lifecycle phases?
+A) compile, test, validate, package, install
+B) validate, compile, test, package, install
+C) clean, test, validate, compile, install
+D) validate, test, compile, install, package
+Answer: B) validate, compile, test, package, install
+
+
+
+
+
+ 
+1. Which among the following  is not  synchronized 
+¡    A. Vector
+¡   (2) B. StringBuffer
+¤   (3) C. StringBuilder
+¡   (4) D. Hashtable
+
+Ans  C
+
+2.The Collection interface provides support for the implementation of a mathematical bag - an unordered collection of objects that may contain duplicates.
+¡   (1) A. False
+¤   (2) B. True
+Ans B
+
+3.Is the ternary operator written  as 
+
+a) x : y ? z 
+b) x ? y : z ?
+  
+Ans b
+  
+ 
+4. public class Test { }
+
+What is the prototype of the default constructor?
+ 
+  A. Test( )   
+  B. Test(void)   
+  C. public Test( )   
+  D. public Test(void)   
+ 
+Ans c
+ 
+5.Object i1=new HashMap(),i2=new TreeMap(); 
+           True or False
+
+i1 instanceof SortedMap
+i2 instanceof SortedMap;
+i1 instanceof Collection;
+
+A. T,T,F
+B. T,F,T
+C.F,T,F
+D.F,F,F
+
+Ans   C
+
+6. What will be the output of the program? 
+
+public class A
+{ 
+    void A() /* Line 3 */
+    {
+        System.out.println("Class A"); 
+    } 
+    public static void main(String[] args) 
+    { 
+        new A(); 
+    } 
+}
+ 
+ A. Class A   
+  B. Compilation fails.   
+  C. An exception is thrown at line 3.   
+  D. The code executes with no output.   
+ 
+Ans D
+
+ 
+
+ 
+   
+
+7. Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+ 
+  A. java.lang.String   
+  B. java.lang.StringBuffer   
+  
+  Ans B
+8. 
+/* Missing Statement ? */
+public class foo 
+{
+    public static void main(String[]args)throws Exception 
+    {
+        java.io.PrintWriter out = new java.io.PrintWriter(); 
+        out.println("Hello"); 
+    } 
+}
+
+
+
+What line of code should replace the missing statement to make this program compile?
+ 
+ A. No statement required.   
+  B. import java.io.*;   
+  C. include java.io.*;   
+  D. import java.io.PrintWriter;   
+ 
+  Ans A
+
+ 
+
+9. 
+public class MyOuter 
+{
+    public static class MyInner 
+    {
+        public static void foo() { }
+    }
+}
+
+which statement, if placed in a class other than MyOuter or MyInner, instantiates an instance of the nested class?
+ 
+ A. MyOuter.MyInner m = new MyOuter.MyInner();   
+  B. MyOuter.MyInner mi = new MyInner();   
+  C. MyOuter m = new MyOuter();
+ D. MyOuter.MyInner mi = m.new MyOuter.MyInner();
+   
+ans A
+ 
+10. What will be the output of the program? 
+
+String a = "ABCD"; 
+String b = a.toLowerCase(); 
+b.replace('a','d'); 
+b.replace('b','c'); 
+System.out.println(b);
+
+  A. abcd   
+  B. ABCD   
+  C. dccd   
+D.dcba
+
+Ans A 
+ 
+11. You want subclasses in any package to have access to members of a superclass. Which is the most restrictive access that accomplishes this objective?
+ 
+ A. public   
+ B. private   
+ C. protected   
+D.transient
+
+ans C
+   
+12. 
+
+interface Base 
+{
+    boolean m1 ();
+    byte m2(short s);
+}
+
+which two code fragments will compile? 
+
+A. interface Base2 implements Base {} 
+B. abstract class Class2 extends Base 
+{ public boolean m1(){ return true; }} 
+C. abstract class Class2 implements Base {} 
+   abstract class Class2 implements Base 
+{ public boolean m1(){ return (7 > 4); }} 
+D. abstract class Class2 implements Base 
+{ protected boolean m1(){ return (5 > 7) }} 
+
+ 
+ A. 1 and 2   
+ B. 2 and 3   
+ C. 3 and 4   
+ D. 1 and 5   
+ 
+Ans C
+  
+ 
+13. 
+class A 
+{  
+    protected int method1(int a, int b) 
+    {
+        return 0; 
+    } 
+}
+
+Which is valid in a class that extends class A?
+ 
+ A. public int method1(int a, int b) {return 0; }   
+  B. private int method1(int a, int b) { return 0; }   
+  C. public short method1(int a, int b) { return 0; }   
+  D. static protected int method1(int a, int b) { return 0; }   
+ 
+Ans A
+  
+  
+14. What will be the output of the program? 
+
+class Test 
+{
+    public static void main(String [] args) 
+    {
+        Test p = new Test();
+        p.start();
+    }
+
+    void start() 
+    {
+        boolean b1 = false;
+        boolean b2 = fix(b1);
+        System.out.println(b1 + " " + b2);
+    }
+
+    boolean fix(boolean b1) 
+    {
+        b1 = true;
+        return b1;
+    }
+}
+
+
+ A. true true   
+ B. false true   
+ C. true false   
+ D. false false   
+ 
+
+   ans B
+
+
+15. What will be the output of the program? 
+
+class PassS 
+{
+    public static void main(String [] args) 
+    {
+        PassS p = new PassS();
+        p.start();
+    }
+
+    void start() 
+    {
+        String s1 = "slip";
+        String s2 = fix(s1);
+        System.out.println(s1 + " " + s2);
+    }
+
+    String fix(String s1) 
+    {
+        s1 = s1 + "stream";
+        System.out.print(s1 + " ");
+        return "stream";
+    }
+}
+
+ 
+ A. slip stream   
+  B. slipstream stream   
+  C. stream slip stream   
+  D. slipstream slip stream   
+ 
+  ans D
+
+16. 
+public void test(int x) 
+{ 
+    int odd = 1; 
+    if(odd) /* Line 4 */
+    {
+        System.out.println("odd"); 
+    } 
+    else 
+    {
+        System.out.println("even"); 
+    } 
+}
+
+Which statement is true?
+ 
+ A. Compilation fails.   
+  B. "odd" will always be output.   
+  C. "even" will always be output.   
+  D. "odd" will be output for odd values of x, and "even" for even values.   
+ 
+ 
+
+17. What will be the output of the program? 
+
+public class Test 
+{  
+    public static void main(String args[]) 
+    { 
+        int i = 1, j = 0; 
+        switch(i) 
+        { 
+            case 2: j += 6; 
+            case 4: j += 1; 
+            default: j += 2; 
+            case 0: j += 4; 
+        } 
+        System.out.println("j = " + j); 
+    } 
+}
+ 
+ A. 0   
+ B. 2   
+ C. 4   
+ D. 6   
+ 
+Ans D
+ 
+  
+  
+18. Which is valid declaration of a float?
+ 
+ A. float f = 1F;   
+ B. float f = 1.0;   
+ C. float f = "1";   
+ D. float f = 1.0d;   
+ 
+ Ans A
+  
+19. What will be the output of the program? 
+
+TreeSet map = new TreeSet();
+map.add("one");
+map.add("two");
+map.add("three");
+map.add("four");
+map.add("one");
+Iterator it = map.iterator();
+while (it.hasNext() ) 
+{
+    System.out.print( it.next() + " " );
+}
+
+ 
+ A. one two three four   
+  B. four three two one   
+  C. four one three two   
+  D. one two three four one   
+ 
+  Ans  C	
+
+20. What will be the output of the program? 
+
+public class Test 
+{  
+    public static void main(String[] args) 
+    { 
+        int x = 0;  
+        assert (x > 0) ? "assertion failed" : "assertion passed" ; 
+        System.out.println("finished");  
+    } 
+}
+
+
+ 
+ A. finished   
+ B. Compiliation fails.   
+ C. An AssertionError is thrown and finished is output.   
+ D. An AssertionError is thrown with the message "assertion failed."   
+ 
+Ans B
+  
+21. What will be the output of the program? 
+
+public class BoolTest 
+{
+    public static void main(String [] args) 
+    {
+        int result = 0;
+
+        Boolean b1 = new Boolean("TRUE");
+        Boolean b2 = new Boolean("true");
+        Boolean b3 = new Boolean("tRuE");
+        Boolean b4 = new Boolean("false");
+
+        if (b1 == b2)  /* Line 10 */
+            result = 1;
+        if (b1.equals(b2) ) /* Line 12 */
+            result = result + 10;
+        if (b2 == b4)  /* Line 14 */
+            result = result + 100;
+        if (b2.equals(b4) ) /* Line 16 */
+            result = result + 1000;
+        if (b2.equals(b3) ) /* Line 18 */
+            result = result + 10000;
+
+        System.out.println("result = " + result);
+    }
+}
+
+ A. 10010
+ B. 11100  
+ C. 10101   
+ D. 10000   
+ 
+Ans  A
+
+22. The JDBC-ODBC Bridge supports multiple concurrent open statements per connection?
+
+A. True 
+B. False
+
+A ns B
+
+23.Which statement is static and synchronized in JDBC API?
+
+executeQuery() 
+executeUpdate() 
+getConnection() 
+prepareCall() 
+
+Ans C
+
+24.The class java.sql.Timestamp has its super class as
+
+java.sql.Time 
+java.util.Date 
+java.util.Time 
+None of the above 
+
+ans B
+
+25. Which method is used to perform DML statements in JDBC?
+
+execute() 
+executeQuery() 
+executeUpdate() 
+executeResult() 
+
+Ans C
+
