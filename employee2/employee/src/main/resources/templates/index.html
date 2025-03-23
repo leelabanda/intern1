@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <h2>Employee List</h2>
+
+    <!-- Employee Form -->
+<form th:action="@{/employees/save}" method="post">
+    <label>First Name:</label>
+    <input type="text" name="firstname" required>
+
+    <label>Last Name:</label>
+    <input type="text" name="lastname" required>
+
+    <label>Email:</label>
+    <input type="email" name="emailid" required>
+
+    <button type="submit">Save Employee</button>
+</form>
+
+
+    <!-- Employee Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Thymeleaf Loop to Display Data -->
+            <tr th:each="emp : ${employees}">
+                <td th:text="${emp.id}"></td>
+                <td th:text="${emp.firstname}"></td>
+                <td th:text="${emp.lastname}"></td>
+                <td th:text="${emp.emailid}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

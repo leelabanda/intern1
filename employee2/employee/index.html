@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot with HTML</title>
+</head>
+<body>
+    <h1>Data from Spring Boot:</h1>
+    <p id="output">Loading...</p>
+
+    <script>
+        // Fetch data from Spring Boot API
+        fetch('http://localhost:8080/avi/v1/employees')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('output').innerText = data.message;
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
