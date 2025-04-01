@@ -16,13 +16,13 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
-@RequestMapping("/users")
+@RequestMapping("/employees")
 public class EmployeeController {
 
     @Autowired
     private EmployeeRepository loginRepo;
 
-    @GetMapping
+    @GetMapping("/")
     public String listEmployees(Model model) {
         List<Login> employees = loginRepo.findAll();
         model.addAttribute("employees", employees);
